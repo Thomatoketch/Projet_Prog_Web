@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Efreestyle</title>
+    <link rel= "stylesheet" href="../css/style_inscription.css">
 </head>
 <body>
     <header>
@@ -30,72 +31,86 @@
         </div>
         </header>
         <section>
-            <h1>Prenom</h1>
-                <input type="text" name="prenom" placeholder="Ex: Thomas">
+            <div class="box" data-name="box1">
+                <h2>Informations personelles</h2>
+                <p><h1>Prenom</h1>
+                    <input type="text" name="prenom" placeholder="Ex: Thomas">
+    
+                    <h1>Nom</h1>
+                    <input type="text" name="nom" placeholder="Ex: Raymond">
+    
+                <h1>Date de naissance</h1>
+                    <input type="date" name="date de naissance">
+                </p>
+            </div>
+            <br>
+            <div class="box" id="box2">
+                <h2>Informations EFREI</h2>
+                <p><h1>Promotion</h1>
+                    <select name="promotion">
+                        <option value="">Sélectionnez votre promotion</option>
+                        <option value="L1">L1</option>
+                        <option value="L2">L2</option>
+                        <option value="L3">L3</option>
+                        <option value="M1">M1</option>
+                        <option value="M2">M2</option>
+                        <option value="M2">M2</option>
+                        <option value="M2">M2</option>
+                        <option value="M2">M2</option>
+                    </select>
+    
+                <h1>Niveau</h1>
+                    <select name="promotion">
+                        <option value="">Sélectionnez votre promotion</option>
+                        <option value="L1">L1</option>
+                        <option value="L2">L2</option>
+                        <option value="L3">L3</option>
+                        <option value="M1">M1</option>
+                        <option value="M2">M2</option>
+                        <option value="M2">B1</option>
+                        <option value="M2">B2</option>
+                        <option value="M2">B3</option>
+                    </select>
+    
+                <h1>Adresse mail</h1>
+                    <input type="text" name="mail" placeholder="Ex: thomas.raymond"><span>@efrei.net</span>
+                </p>
+            </div>
+            <br>
+            <div class="box" id="box3">
+                <h2>Informations EFREI</h2>
+                <p>
+                    <h1>Créneaux (pour nous aider a organiser au mieux les séance)</h1>
+                        <input type="checkbox" name="creneau 1" id="option1">
+                        <label for="option1">Lundi : 18h à 20h</label>
 
-            <h1>Nom</h1>
-                <input type="text" name="nom" placeholder="Ex: Raymond">
+                        <input type="checkbox" name="creneau 2" id="option2">
+                        <label for="option2">mardi : 15h à 17h</label>
 
-            <h1>Date de naissance</h1>
-                <input type="date" name="date de naissance" placeholder="DD/MM/AAAA">
+                        <input type="checkbox" name="creneau 3" id="option3">
+                        <label for="option3">Mercredi : 18h à 20h</label>
 
-            <h1>Promotion</h1>
-                <select name="promotion">
-                    <option value="">Sélectionnez votre promotion</option>
-                    <option value="L1">L1</option>
-                    <option value="L2">L2</option>
-                    <option value="L3">L3</option>
-                    <option value="M1">M1</option>
-                    <option value="M2">M2</option>
-                    <option value="M2">M2</option>
-                    <option value="M2">M2</option>
-                    <option value="M2">M2</option>
-                </select>
+                        <input type="checkbox" name="creneau 4" id="option3">
+                        <label for="option3">Jeudi : 18h à 20h</label>
 
-            <h1>Niveau</h1>
-                <select name="promotion">
-                    <option value="">Sélectionnez votre promotion</option>
-                    <option value="L1">L1</option>
-                    <option value="L2">L2</option>
-                    <option value="L3">L3</option>
-                    <option value="M1">M1</option>
-                    <option value="M2">M2</option>
-                    <option value="M2">B1</option>
-                    <option value="M2">B2</option>
-                    <option value="M2">B3</option>
-                </select>
+                    <h1>Style(s) que vous voulez pratiquer</h1>
+                        <input type="checkbox" name="style 1" id="option1">
+                        <label for="option1">Modern-jazz</label>
 
-            <h1>Adresse mail</h1>
-                <input type="text" name="mail" placeholder="Ex: thomas.raymond"><span>@efrei.net</span>
+                        <input type="checkbox" name="style 2" id="option2">
+                        <label for="option2">Hip-Hop</label>
+
+                        <input type="checkbox" name="style 3" id="option3">
+                        <label for="option3">Danse africaine</label>
+
+                        <input type="checkbox" name="style 4" id="option3">
+                        <label for="option3">Urban dance</label>
+
+                        <input type="checkbox" name="style 5" id="option3">
+                        <label for="option3">Rock</label>
+                </p>
+            </div>
             
-            <h1>Créneaux (pour nous aider a organiser au mieux les séance)</h1>
-                <input type="checkbox" name="creneau 1" id="option1">
-                <label for="option1">Lundi : 18h à 20h</label>
-
-                <input type="checkbox" name="creneau 2" id="option2">
-                <label for="option2">mardi : 15h à 17h</label>
-
-                <input type="checkbox" name="creneau 3" id="option3">
-                <label for="option3">Mercredi : 18h à 20h</label>
-
-                <input type="checkbox" name="creneau 4" id="option3">
-                <label for="option3">Jeudi : 19h30 à 20h30</label>
-
-            <h1>Style(s) que vous voulez pratiquer</h1>
-                <input type="checkbox" name="style 1" id="option1">
-                <label for="option1">Modern-jazz</label>
-
-                <input type="checkbox" name="style 2" id="option2">
-                <label for="option2">Hip-Hop</label>
-
-                <input type="checkbox" name="style 3" id="option3">
-                <label for="option3">Danse africaine</label>
-
-                <input type="checkbox" name="style 4" id="option3">
-                <label for="option3">Urban dance</label>
-
-                <input type="checkbox" name="style 5" id="option3">
-                <label for="option3">Rock</label>
 
             <h1>Liste des inscits</h1>
                 <input type="text" name="inscrits" placeholder="Ex: Thomas">
