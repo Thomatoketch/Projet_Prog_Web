@@ -1,0 +1,14 @@
+.box {
+    border-radius: 10px;
+    background-color: rgb(255, 240, 240);
+    padding: 20px;
+    color: #333333;
+  }
+
+h1{
+    font-size: auto;
+}
+
+body{
+    font-family: Cambria;
+}
