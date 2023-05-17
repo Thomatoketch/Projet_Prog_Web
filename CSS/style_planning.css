@@ -1,0 +1,25 @@
+td.c1{
+    background-color: violet;
+    text-align: center;
+}
+td.c2{
+    background-color: red;
+    text-align: center;
+}
+td.c3{
+    background-color: green;
+    text-align: center;
+}
+td.c4{
+    background-color: rgb(0, 255, 238);
+    text-align: center;
+}
+td.c5{
+    background-color: rgb(233, 241, 0);
+    text-align: center;
+}
+
+td.c6{
+    background-color: grey;
+    text-align: center;
+}

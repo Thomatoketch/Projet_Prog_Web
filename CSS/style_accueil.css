@@ -1,0 +1,17 @@
+section{
+    text-align: left;
+    justify-content: left;
+}
+
+aside{
+    background-color: plum;
+    float: right;
+    box-shadow: 3px 3px 1px #ff80c25c;
+    height: 100px;
+    padding: 0 5px 500px 5px;
+}
+aside img{
+    height: 150px;
+    width: 110px;
+    padding: 0 0px 0px 0px;
+}
