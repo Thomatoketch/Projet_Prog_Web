@@ -19,7 +19,7 @@
                     <a href= "./planning.html"> Le planning </a>
                 </li>
                 <li>
-                    <a href= "./inscription.html"> S'inscrire à un cours </a> 
+                    <a href= "./inscription.html"> Devenir membre </a> 
                 </li>
         
                 <li>
@@ -31,94 +31,123 @@
         </div>
         </header>
         <section>
-            <div class="box" data-name="box1">
-                <h2>Informations personelles</h2>
-                <p><h1>Prenom</h1>
-                    <input type="text" name="prenom" placeholder="Ex: Thomas">
+            <fieldset class="box" data-name="box1">
+                <legend>Informations personelles</legend>
+                <h3 class="boite">Prenom</h3>
+                <input type="text" name="prenom" placeholder="Ex: Thomas">
     
-                    <h1>Nom</h1>
-                    <input type="text" name="nom" placeholder="Ex: Raymond">
+                <h3 class="boite">Nom</h3>
+                <input type="text" name="nom" placeholder="Ex: Raymond">
     
-                <h1>Date de naissance</h1>
-                    <input type="date" name="date de naissance">
-                </p>
-            </div>
+                <h3 class="boite">Date de naissance</h3>
+                <input type="date" name="date de naissance">
+            </fieldset>
             <br>
-            <div class="box" id="box2">
-                <h2>Informations EFREI</h2>
-                <p><h1>Promotion</h1>
-                    <select name="promotion">
-                        <option value="">Sélectionnez votre promotion</option>
-                        <option value="L1">L1</option>
-                        <option value="L2">L2</option>
-                        <option value="L3">L3</option>
-                        <option value="M1">M1</option>
-                        <option value="M2">M2</option>
-                        <option value="M2">M2</option>
-                        <option value="M2">M2</option>
-                        <option value="M2">M2</option>
-                    </select>
-    
+            <fieldset class="box" id="box2">
+                <legend>Informations EFREI</legend>
+                <h1>Promotion</h1>
+                <select name="promotion">
+                    <option value="">Sélectionnez votre promotion</option>
+                    <option value="L1">2023</option>
+                    <option value="L2">2024</option>
+                    <option value="L3">2025</option>
+                    <option value="M1">2026</option>
+                </select>
+
                 <h1>Niveau</h1>
-                    <select name="promotion">
-                        <option value="">Sélectionnez votre promotion</option>
-                        <option value="L1">L1</option>
-                        <option value="L2">L2</option>
-                        <option value="L3">L3</option>
-                        <option value="M1">M1</option>
-                        <option value="M2">M2</option>
-                        <option value="M2">B1</option>
-                        <option value="M2">B2</option>
-                        <option value="M2">B3</option>
-                    </select>
-    
+                <select name="niveau">
+                    <option value="">Sélectionnez votre niveau</option>
+                    <option value="L1">L1</option>
+                    <option value="L2">L2</option>
+                    <option value="L3">L3</option>
+                    <option value="M1">M1</option>
+                    <option value="M2">M2</option>
+                    <option value="M2">B1</option>
+                    <option value="M2">B2</option>
+                    <option value="M2">B3</option>
+                </select>
+
                 <h1>Adresse mail</h1>
-                    <input type="text" name="mail" placeholder="Ex: thomas.raymond"><span>@efrei.net</span>
-                </p>
-            </div>
+                <input type="text" name="mail" placeholder="Ex: thomas.raymond"><span>@efrei.net</span>
+            </fieldset>
             <br>
-            <div class="box" id="box3">
-                <h2>Informations EFREI</h2>
-                <p>
-                    <h1>Créneaux (pour nous aider a organiser au mieux les séance)</h1>
-                        <input type="checkbox" name="creneau 1" id="option1">
-                        <label for="option1">Lundi : 18h à 20h</label>
+            <fieldset class="box" id="box3">
+                <legend>Informations EFREI</legend>
+                    <h1>Créneaux (pour nous aider a organiser au mieux les séances)</h1>
+                    <input type="checkbox" name="creneau 1" id="option1">
+                    <label for="option1">Lundi : 18h à 20h</label>
 
-                        <input type="checkbox" name="creneau 2" id="option2">
-                        <label for="option2">mardi : 15h à 17h</label>
+                    <input type="checkbox" name="creneau 2" id="option2">
+                    <label for="option2">mardi : 15h à 17h</label>
 
-                        <input type="checkbox" name="creneau 3" id="option3">
-                        <label for="option3">Mercredi : 18h à 20h</label>
+                    <input type="checkbox" name="creneau 3" id="option3">
+                    <label for="option3">Mercredi : 18h à 20h</label>
 
-                        <input type="checkbox" name="creneau 4" id="option3">
-                        <label for="option3">Jeudi : 18h à 20h</label>
-
+                    <input type="checkbox" name="creneau 4" id="option3">
+                    <label for="option3">Jeudi : 18h à 20h</label>
+                    
+                        
                     <h1>Style(s) que vous voulez pratiquer</h1>
-                        <input type="checkbox" name="style 1" id="option1">
-                        <label for="option1">Modern-jazz</label>
+                    <input type="checkbox" name="style 1" id="option1">
+                    <label for="option1">Modern-jazz</label>
 
-                        <input type="checkbox" name="style 2" id="option2">
-                        <label for="option2">Hip-Hop</label>
+                    <input type="checkbox" name="style 2" id="option2">
+                    <label for="option2">Hip-Hop</label>
 
-                        <input type="checkbox" name="style 3" id="option3">
-                        <label for="option3">Danse africaine</label>
+                    <input type="checkbox" name="style 3" id="option3">
+                    <label for="option3">Danse africaine</label>
 
-                        <input type="checkbox" name="style 4" id="option3">
-                        <label for="option3">Urban dance</label>
+                    <input type="checkbox" name="style 4" id="option3">
+                    <label for="option3">Urban dance</label>
 
-                        <input type="checkbox" name="style 5" id="option3">
-                        <label for="option3">Rock</label>
-                </p>
-            </div>
-            
+                    <input type="checkbox" name="style 5" id="option3">
+                    <label for="option3">Rock</label>
+            </fieldset>
+            <br>
+            <legend>Générer et ajouter à votre liste</legend>
+            <button type="submit" onclick= "generer()">Ajouter</button>
 
             <h1>Liste des inscits</h1>
-                <input type="text" name="inscrits" placeholder="Ex: Thomas">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Prenom</th>
+                        <th>Niveau</th>
+                        <th>Style pratiqué</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lea</td>
+                        <td>Varing</td>
+                        <td>L2</td>
+                        <td>Modern-jazz</td>
+                    </tr>
+                    <tr>
+                        <td>Luka</td>
+                        <td>Radovanovik</td>
+                        <td>L2</td>
+                        <td>Danse africaine</td>
+                    </tr>
+                    <tr>
+                        <td>Alexandre</td>
+                        <td>Inconnu</td>
+                        <td>B1</td>
+                        <td>Rock</td>
+                    </tr>
+                </tbody>
+            </table>
 
         </section>
+        <br>
         <footer id="foot"> 
-            <a href=" https://www.facebook.com/EfreestyleDanceCrew/?locale=fr_FR"> Notre page facebook</a>
+            <a href="https://www.facebook.com/EfreestyleDanceCrew/?locale=fr_FR">
+                <img src="../img/facebook.jpg" id="lien_reseau">
+            </a>
+            <a href="https://www.instagram.com/efreestyle_efrei/">
+                <img src="../img/insta.jpg" id="lien_reseau">
+            </a>
         </footer>
-    
 </body>
 </html>
