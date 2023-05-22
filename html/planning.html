@@ -8,9 +8,12 @@
     <title>Efreestyle</title>
 </head>
 <body>
-    <header>
-        <img src="../img/baniere.jpeg" alt="BruteImage" height="200" width="800">  
-        <div> 
+  <header>
+    <div id="baniere_img">
+        <div id="baniere_slogan"> Efreestyle est l'asso de danse de l'Efrei qui est là pour vous faire bouger !</div>
+    </div>
+     
+        <nav>
             <ul id="Menu">
                 <li>
                     <a href= "./accueil.html"> Accueil</a>
@@ -25,34 +28,37 @@
                 <li>
                     <a href= "./nous.html"> Qui sommes nous ? </a> 
                 </li>
-                
-                
             </ul>
-        </div>
-        <h1>Efreestyle est l'asso de danse de l'Efrei qui est là pour vous faire bouger !</h1>
-        </header>
+        </nav>
+    
+
+    </header>
 
         <style>
           table, td {
           border: 1px solid #333; 
+          text-align: center;
           }
-          thead, tfoot { 
+          thead, tfoot{ 
               background-color: #333; color: #fff;
           }
           </style>
 
-        <h1>Planning de la semaine</h1>
+        <h2 class="box">Planning de la semaine</h2>
         <table>
-          <tr>
-            <th>      </th>
-            <th>Lundi</th>
-            <th>Mardi</th>
-            <th>Mercredi</th>
-            <th>Jeudi</th>
-            <th>Vendredi</th>
-            <th>Samedi</th>
-            <th>Dimanche</th>
-          </tr>
+          <thead> 
+            <tr>
+              <th>      </th>
+              <th>Lundi</th>
+              <th>Mardi</th>
+              <th>Mercredi</th>
+              <th>Jeudi</th>
+              <th>Vendredi</th>
+              <th>Samedi</th>
+              <th>Dimanche</th>
+            </tr>
+          </thead>
+          
           <tr>
             <td>8h</td>
             <td></td>
@@ -80,7 +86,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td class="c6" rowspan="4">Répétition RDD (tout le monde !)</td>
+            <td class="c6" rowspan="4"> Répétition RDD (tout le monde !)</td>
             <td></td>
           </tr>
           <tr>
@@ -91,7 +97,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
+
           </tr>
           <tr>
             <td>12h</td>
@@ -101,11 +107,9 @@
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
           </tr>
           <tr>
             <td>13h</td>
-            <td></td>
             <td></td>
             <td></td>
             <td></td>
@@ -174,12 +178,19 @@
             <td ></td>
             <td></td>
 
-
           </tr>
+          <tfoot>
+            <td colspan="8"> Le planning est amené à changer chaque semaine alors rester à l'affut des modifications ;) </td>
+          </tfoot>
         </table>
 
         <footer id="foot"> 
-            <a href=" https://www.facebook.com/EfreestyleDanceCrew/?locale=fr_FR"> Notre page facebook</a>
-        </footer>
+          <a href="https://www.facebook.com/EfreestyleDanceCrew/?locale=fr_FR">
+              <img src="../img/facebook.jpg" id="lien_reseau">
+          </a>
+          <a href="https://www.instagram.com/efreestyle_efrei/">
+              <img src="../img/insta.jpg" id="lien_reseau">
+          </a>
+      </footer>
 </body>
 </html>
