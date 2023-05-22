@@ -1,3 +1,53 @@
+html{
+    background: #ffd895;
+    width: 100%;
+    padding: 0 5px 5px 5px ;
+}
+
+
+#baniere_img{
+    position: relative;
+    margin-top: 15px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+    background: url('../img/baniere.jpeg') no-repeat;
+    background-size: 1450px 300px;
+}
+#baniere_slogan{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top:15px;
+    padding-left: 4px;
+    background-color: rgba(24, 24, 24, 0.8);
+    color: white; 
+    font-size: 1.5em;
+    font-weight: 500;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    margin-right: 15px;
+}
+nav a{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: #B40431;
+    border-bottom: 3px solid #0B2161;
+}
 .box {
     border-radius: 10px;
     background-color: rgb(255, 240, 240);
@@ -23,7 +73,7 @@ th, td {
     padding: 8px;
 }
 
-img#lien_reseau {
+#lien_reseau {
     width : 30px;
 }
 
