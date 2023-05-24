@@ -59,11 +59,8 @@ h2{
     width: 42%;
 }
 
-
-#Léa img{
-    width: 250px;
-    height: 400px;
-    padding-left: 100px;
+#presentation img{
+    width: 100%;
 }
 
 tfoot, thead{
