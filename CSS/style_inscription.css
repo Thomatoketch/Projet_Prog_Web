@@ -17,6 +17,7 @@ html{
 }
 #baniere_slogan{
     position: absolute;
+    text-align: center;
     bottom: 0;
     border-radius: 0px 0px 5px 5px;
     width: 99.5%;
@@ -48,6 +49,9 @@ nav a:hover{
     color: #B40431;
     border-bottom: 3px solid #0B2161;
 }
+
+
+
 .box {
     border-radius: 10px;
     background-color: rgb(255, 240, 240);
@@ -55,6 +59,7 @@ nav a:hover{
     display: flex;
     flex-direction: line;
     gap: 10px;
+    align-items: center;
   }
 
 body{
@@ -74,7 +79,9 @@ th, td {
 }
 
 #lien_reseau {
-    width : 30px;
+    width : 50px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 legend {
@@ -83,4 +90,19 @@ legend {
 
 .boite {
     margin-bottom: 5px;
+}
+
+footer {
+    background-color: lightgray;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size : 20px;
+    font-family: "RubikPuddles-Regular", sans-serif;
+}
+
+.footer-column {
+    width: 50%;
 }
