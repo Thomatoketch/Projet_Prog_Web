@@ -1,171 +1,171 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Efreestyle</title>
-    <link rel= "stylesheet" href="../css/style_inscription.css">
-    <script type="text/javascript" src="../js/inscription.js"></script>
-</head>
-<body>
-    <header>
-        <div id="baniere_img">
-            <div id="baniere_slogan"> Efreestyle est l'asso de danse de l'Efrei qui est là pour vous faire bouger !</div>
-        </div>
-         
-            <nav>
-                <ul id="Menu">
-                    <li>
-                        <a href= "./accueil.html"> Accueil</a>
-                    </li>
-                    <li>
-                        <a href= "./planning.html"> Le planning </a>
-                    </li>
-                    <li>
-                        <a href= "./inscription.html"> Devenir membre </a> 
-                    </li>
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Efreestyle</title>
+        <link rel= "stylesheet" href="../css/style_inscription.css">
+        <script type="text/javascript" src="../js/inscription.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="baniere_img">
+                <div id="baniere_slogan"> Efreestyle est l'asso de danse de l'Efrei qui est là pour vous faire bouger !</div>
+            </div>
             
-                    <li>
-                        <a href= "./nous.html"> Qui sommes nous ? </a> 
-                    </li>
-                </ul>
-            </nav>
-        
-
-        </header>
-        <section>
-            <form method="post" name="formulaire1" action="#" id="form1" onsubmit="return false">
-                <fieldset class="box" data-name="box1">
-                    <legend>Informations personelles</legend>
-                    <h3>Prenom</h3>
-                    <input type="text" name="prenom" placeholder="Ex: Thomas">
-        
-                    <h3>Nom</h3>
-                    <input type="text" name="nom" placeholder="Ex: Raymond">
-        
-                    <h3>Date de naissance</h3>
-                    <input type="date" name="date de naissance">
-                </fieldset>
-                <br>
-                <fieldset class="box" id="box2">
-                    <legend>Informations EFREI</legend>
-                    <h3>Promotion</h3>
-                    <select name="promotion">
-                        <option value="">Sélectionnez votre promotion</option>
-                        <option value="L1">2023</option>
-                        <option value="L2">2024</option>
-                        <option value="L3">2025</option>
-                        <option value="M1">2026</option>
-                    </select>
-
-                    <h3>Niveau</h3>
-                    <select name="niveau">
-                        <option value="">Sélectionnez votre niveau</option>
-                        <option value="L1">L1</option>
-                        <option value="L2">L2</option>
-                        <option value="L3">L3</option>
-                        <option value="M1">M1</option>
-                        <option value="M2">M2</option>
-                        <option value="M2">B1</option>
-                        <option value="M2">B2</option>
-                        <option value="M2">B3</option>
-                    </select>
-
-                    <h3>Adresse mail</h3>
-                    <input type="text" name="mail" placeholder="Ex: thomas.raymond"><span>@efrei.net</span>
-                </fieldset>
-                <br>
-                <fieldset class="box" id="box3">
-                    <legend>Informations EFREI</legend>
-                        <h3>Créneaux (pour nous aider a organiser au mieux les séances)</h3>
-                        <input type="checkbox" name="Lundi" id="option1">
-                        <label for="option1">Lundi : 18h à 20h</label>
-
-                        <input type="checkbox" name="mardi" id="option2">
-                        <label for="option2">mardi : 15h à 17h</label>
-
-                        <input type="checkbox" name="Mercredi" id="option3">
-                        <label for="option3">Mercredi : 18h à 20h</label>
-
-                        <input type="checkbox" name="Jeudi" id="option3">
-                        <label for="option3">Jeudi : 18h à 20h</label>
-                        
-                            
-                        <h3>Style(s) que vous voulez pratiquer</h3>
-                        <input type="checkbox" name="style 1" id="option1">
-                        <label for="option1">Modern-jazz</label>
-
-                        <input type="checkbox" name="style 2" id="option2">
-                        <label for="option2">Hip-Hop</label>
-
-                        <input type="checkbox" name="style 3" id="option3">
-                        <label for="option3">Danse africaine</label>
-
-                        <input type="checkbox" name="style 4" id="option3">
-                        <label for="option3">Urban dance</label>
-
-                        <input type="checkbox" name="style 5" id="option3">
-                        <label for="option3">Rock</label>
-                </fieldset>
-            </form>
-
-            <br>
-            <legend>Générer et ajouter à votre liste</legend>
-            <button type="submit" onclick= "generer()">Ajouter</button>
-
-            <h1>Liste des inscits</h1>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Nom</th>
-                        <th>Prenom</th>
-                        <th>Niveau</th>
-                        <th>Style pratiqué</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Lea</td>
-                        <td>Varing</td>
-                        <td>L2</td>
-                        <td>Modern-jazz</td>
-                    </tr>
-                    <tr>
-                        <td>Luka</td>
-                        <td>Radovanovik</td>
-                        <td>L2</td>
-                        <td>Danse africaine</td>
-                    </tr>
-                    <tr>
-                        <td>Alexandre</td>
-                        <td>Inconnu</td>
-                        <td>B1</td>
-                        <td>Rock</td>
-                    </tr>
-                </tbody>
-            </table>
-
-        </section>
-        <br>
-        <footer> 
-            <div id="reseaux" class="footer-column">
-                Rejoignez nous sur nos réseaux !
-                <br>
-                <a href="https://www.facebook.com/EfreestyleDanceCrew/?locale=fr_FR">
-                <img src="../img/facebook.png" id="lien_reseau">
-                </a>
+                <nav>
+                    <ul id="Menu">
+                        <li>
+                            <a href= "./accueil.html"> Accueil</a>
+                        </li>
+                        <li>
+                            <a href= "./planning.html"> Le planning </a>
+                        </li>
+                        <li>
+                            <a href= "./inscription.html"> Devenir membre </a> 
+                        </li>
                 
-                <a href="https://www.instagram.com/efreestyle_efrei/">
-                <img src="../img/insta.png" id="lien_reseau">
-                </a>
-            </div>
+                        <li>
+                            <a href= "./nous.html"> Qui sommes nous ? </a> 
+                        </li>
+                    </ul>
+                </nav>
             
-            <div id="lieu" class="footer-column">
-                Les cours de danse auront toujours lieu
+
+            </header>
+            <section>
+                <form method="post" name="formulaire1" action="#" id="form1" onsubmit="return false">
+                    <fieldset class="box" data-name="box1">
+                        <legend>Informations personelles</legend>
+                        <h3>Prenom</h3>
+                        <input type="text" name="prenom" placeholder="Ex: Thomas">
+            
+                        <h3>Nom</h3>
+                        <input type="text" name="nom" placeholder="Ex: Raymond">
+            
+                        <h3>Date de naissance</h3>
+                        <input type="date" name="date de naissance">
+                    </fieldset>
+                    <br>
+                    <fieldset class="box" id="box2">
+                        <legend>Informations EFREI</legend>
+                        <h3>Promotion</h3>
+                        <select name="promotion">
+                            <option value="Sélectionnez votre promotion">Sélectionnez votre promotion</option>
+                            <option value="L1">2023</option>
+                            <option value="L2">2024</option>
+                            <option value="L3">2025</option>
+                            <option value="M1">2026</option>
+                        </select>
+
+                        <h3>Niveau</h3>
+                        <select name="niveau">
+                            <option value="Sélectionnez votre niveau">Sélectionnez votre niveau</option>
+                            <option value="L1">L1</option>
+                            <option value="L2">L2</option>
+                            <option value="L3">L3</option>
+                            <option value="M1">M1</option>
+                            <option value="M2">M2</option>
+                            <option value="M2">B1</option>
+                            <option value="M2">B2</option>
+                            <option value="M2">B3</option>
+                        </select>
+
+                        <h3>Adresse mail</h3>
+                        <input type="text" name="mail" placeholder="Ex: thomas.raymond"><span>@efrei.net</span>
+                    </fieldset>
+                    <br>
+                    <fieldset class="box" id="box3">
+                        <legend>Informations EFREI</legend>
+                            <h3>Créneaux (pour nous aider a organiser au mieux les séances)</h3>
+                            <input type="checkbox" name="Lundi" id="option1">
+                            <label for="option1">Lundi : 18h à 20h</label>
+
+                            <input type="checkbox" name="mardi" id="option2">
+                            <label for="option2">mardi : 15h à 17h</label>
+
+                            <input type="checkbox" name="Mercredi" id="option3">
+                            <label for="option3">Mercredi : 18h à 20h</label>
+
+                            <input type="checkbox" name="Jeudi" id="option3">
+                            <label for="option3">Jeudi : 18h à 20h</label>
+                            
+
+                            <h3>Style(s) que vous voulez pratiquer</h3>
+                            <input type="checkbox" name="style 1" id="option1">
+                            <label for="option1">Modern-jazz</label>
+
+                            <input type="checkbox" name="style 2" id="option2">
+                            <label for="option2">Hip-Hop</label>
+
+                            <input type="checkbox" name="style 3" id="option3">
+                            <label for="option3">Danse africaine</label>
+
+                            <input type="checkbox" name="style 4" id="option3">
+                            <label for="option3">Urban dance</label>
+
+                            <input type="checkbox" name="style 5" id="option3">
+                            <label for="option3">Rock</label>
+                    </fieldset>
+                </form>
+
                 <br>
-                sur le campus de République !
-            </div>
-        </footer>
-    </body>
-</html>
+                <legend>Cliquer pour finalier votre inscription !</legend>
+                <button type="submit" onclick= "generer()">Ajouter</button>
+
+                <h1>Liste des inscrits</h1>
+                <table id="montab">
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Prenom</th>
+                            <th>Niveau</th>
+                            <th>Style pratiqué</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lea</td>
+                            <td>Varing</td>
+                            <td>L2</td>
+                            <td>Modern-jazz</td>
+                        </tr>
+                        <tr>
+                            <td>Luka</td>
+                            <td>Radovanovik</td>
+                            <td>L2</td>
+                            <td>Danse africaine</td>
+                        </tr>
+                        <tr>
+                            <td>Alexandre</td>
+                            <td>Inconnu</td>
+                            <td>B1</td>
+                            <td>Rock</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </section>
+            <br>
+            <footer> 
+                <div id="reseaux" class="footer-column">
+                    Rejoignez nous sur nos réseaux !
+                    <br>
+                    <a href="https://www.facebook.com/EfreestyleDanceCrew/?locale=fr_FR">
+                    <img src="../img/facebook.png" id="lien_reseau">
+                    </a>
+                    
+                    <a href="https://www.instagram.com/efreestyle_efrei/">
+                    <img src="../img/insta.png" id="lien_reseau">
+                    </a>
+                </div>
+                
+                <div id="lieu" class="footer-column">
+                    Les cours de danse auront toujours lieu
+                    <br>
+                    sur le campus de République !
+                </div>
+            </footer>
+        </body>
+    </html>
