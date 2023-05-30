@@ -22,7 +22,7 @@ html{
     width: 99.5%;
     height: 33px;
     padding-top:15px;
-    padding-left: 4px;
+    padding-left: 350px;
     background-color: rgba(24, 24, 24, 0.8);
     color: white; 
     font-size: 1.5em;
@@ -138,4 +138,19 @@ tfoot, thead{
 
 #lien_reseau {
     width : 30px;
+}
+
+footer {
+    background-color: lightgray;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size : 20px;
+    font-family: "RubikPuddles-Regular", sans-serif;
+}
+
+.footer-column {
+    width: 50%;
 }
